@@ -10,4 +10,26 @@
     border: 1px solid black;
 }
 
+header .nav{
+    color: #940619;
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.jumbo{
+    background-color: #1abc9c;
+    width: 100%;
+}
+
+.jumbo div {
+    width: 400px;
+    color:white ;
+}
+
+.jumbo div img{
+
+}
 
