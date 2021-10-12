@@ -1,5 +1,75 @@
-.row div{
-    background-color: blue;
+[class*="col-"]{
+    min-height: 30px;
     border: 1px solid red;
-    height:20px;
 }
+
+header{
+    background-color:#2c3e50 ;
+    min-height: 60px;
+}
+
+.jumbo{
+    background-color:#1abc9c;
+    min-height: 250px;
+}
+
+#container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.container_fluid{
+    width: 100%;
+    max-width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col-{
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
+
+#container .row div:first-child{
+    min-height: 180px;
+    background-color: white;
+}
+
+#container .row div:nth-child(2){
+    min-height: 200px;
+    background-color: #ba4b63;
+}
+
+#container .row div:nth-child(3){
+    min-height: 200px;
+    background-color: #1ea4b6;
+}
+
+#container .row div:nth-child(4){
+    min-height: 200px;
+    background-color: #140f0f;
+}
+
+#container .row div:nth-child(5){
+    min-height: 200px;
+    background-color: #1c83c1;
+}
+
+#container .row div:nth-child(6){
+    min-height: 200px;
+    background-color: #0e38b5;
+}
+
+#container .row div:last-child{
+    min-height: 200px;
+    background-color: #ccb2a3;
+}
+
+
+
+
