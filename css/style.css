@@ -17,6 +17,14 @@ header .nav{
     justify-content: flex-end;
 }
 
+#container{
+    padding: 0 100px 100px;
+}
+
+h2{
+    padding:40px;
+}
+
 .jumbo{
     background-color: #1abc9c;
     width: 100%;
@@ -27,7 +35,8 @@ header .nav{
     color:white ;
 }
 
-.jumbo div img{
-
+#second_container{
+    background-color: #1abc9c;
+    
 }
 
